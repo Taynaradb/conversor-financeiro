@@ -1,0 +1,40 @@
+.form-control, .form-control:focus {
+    border: none; 
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    border-radius: unset;
+    box-shadow: none;
+    padding: 0;
+    font-size: 34px;
+}
+
+.border-bottom{
+    border-color: #009EF6!important;
+}
+
+.border-bottom:focus{
+    outline: #009EF6;
+    box-shadow: 0 2px 0 #009EF6;
+}
+
+.form-label {
+    margin-bottom: 0;
+}
+
+.form-select, .form-select:focus{
+    border-radius: 8px;
+    outline: none;
+    box-shadow: none;
+}
+
+btn, .btn:focus, .btn:active{
+border-radius: 8px;
+outline: none;
+box-shadow: none;
+background: #009EF7;
+box-sizing: border-box;
+border-radius: 8px;
+width: 100%;
+}
+
