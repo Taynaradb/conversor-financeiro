@@ -1,3 +1,7 @@
+body, *{
+    font-family: 'Poppins', sans-serif;
+}
+
 .form-control, .form-control:focus {
     border: none; 
     background-color: transparent;
@@ -5,7 +9,8 @@
     outline: none;
     border-radius: unset;
     box-shadow: none;
-    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
     font-size: 34px;
 }
 
@@ -28,7 +33,11 @@
     box-shadow: none;
 }
 
-btn, .btn:focus, .btn:active{
+.rounded{
+    border-radius: 8px!important;
+}
+
+.btn, .btn:focus, .btn:active{
 border-radius: 8px;
 outline: none;
 box-shadow: none;
@@ -38,3 +47,23 @@ border-radius: 8px;
 width: 100%;
 }
 
+#dolares{
+    font-size:30px;
+}
+
+div.text{
+   position:relative;
+   font-size: 34px;
+}
+    
+div.text input{
+    padding-left: 45px;
+}
+    
+div.text:after{
+   position: absolute;
+   font-size: 34px;
+   left: 0;
+   top: 0;
+   content: 'R$';
+}
